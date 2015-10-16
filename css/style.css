@@ -1,0 +1,18 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+/* line 9, ../scss/style.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 11, ../scss/style.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 15, ../scss/style.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/***** SITE STYLES *************/
+/**********************************/
