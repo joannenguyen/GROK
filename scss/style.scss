@@ -187,6 +187,7 @@ header{
 }
 
 .schedule{
+    color: #5c231e;
     background: url("../img/scheduleimg.jpg");
     background-size: cover;
     padding-bottom: 20px;
@@ -374,6 +375,7 @@ footer{
             vertical-align: top;
             &:nth-child(3){
                 margin-top: 72px;
+                float: right;
             }
         }
     }
@@ -405,6 +407,11 @@ footer{
             width: 20%;
             left: 20%;
             top: 49%;
+            @-ms-keyframes wiggle{0%{-ms-transform:rotate(3deg);}50%{-ms-transform:rotate(-3deg);}100%{-ms-transform:rotate(3deg);}}
+        @-moz-keyframes wiggle{0%{-moz-transform:rotate(3deg);}50%{-moz-transform:rotate(-3deg);}100%{-moz-transform:rotate(3deg);}}
+        @-webkit-keyframes wiggle{0%{-webkit-transform:rotate(3deg);}50%{-webkit-transform:rotate(-3deg);}100%{-webkit-transform:rotate(3deg);}}
+        @keyframes wiggle{0%{transform:rotate(3deg);}50%{transform:rotate(-3deg);}100%{transform:rotate(3deg);}}
+        &:hover{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle .3s 2;}
         }
 
     
@@ -429,6 +436,47 @@ footer{
         section{
             img{
                 display: inline-block;
+            }
+        }
+        p{
+            width: 60%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .sponsors{
+        img{
+            width: 100%;
+        }
+        li{
+            width: 26%;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 53px;
+            &:nth-child(2){
+                margin-right: 20px;
+                margin-left:33px;
+            }
+            &:nth-child(3){
+                margin-right: 0px;
+                margin-left: 50px;
+            }
+            &:nth-child(4){
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    footer{
+        img{
+            &:nth-child(2){
+                margin-left: 20px;
+            }
+            &:nth-child(3){
+                margin-right:20px;
             }
         }
     }
