@@ -658,4 +658,32 @@ footer p:last-child {
   footer img:nth-child(3) {
     margin-right: 20px;
   }
+
+  /* line 484, ../scss/style.scss */
+  .tg {
+    border: 2px solid black;
+  }
+  /* line 486, ../scss/style.scss */
+  .tg .date {
+    border-bottom: 1px solid black;
+  }
+  /* line 489, ../scss/style.scss */
+  .tg td, .tg th {
+    padding: 10px;
+  }
+  /* line 492, ../scss/style.scss */
+  .tg h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  /* line 496, ../scss/style.scss */
+  .tg th {
+    font-weight: normal;
+  }
+  /* line 499, ../scss/style.scss */
+  .tg h4 {
+    margin: 0px;
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+  }
 }

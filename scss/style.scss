@@ -480,6 +480,29 @@ footer{
             }
         }
     }
+
+    .tg{
+        border: 2px solid black;
+        .date{
+            border-bottom: 1px solid black;
+        }
+        td, th{
+            padding: 10px;
+        }
+        h3{
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+        th{
+            font-weight: normal;
+        }
+        h4{
+            margin: 0px;
+            font-family: $fontheader;
+            text-transform: uppercase;
+
+        }
+    }
 }
 
 
